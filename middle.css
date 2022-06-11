@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    background-image:url("imgfile/snow.png");
+    background-repeat: repeat-x repeat-y;
+    color: white;
+}
+header{
+    height: 110px;
+}
+#logo img{
+    float: left;
+    margin: 30px 0 30px 20px;
+    height: 40px;
+}
+#name{
+    float: left;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 30px 0 30px 30px;
+}
+ul{
+    list-style-type: none;
+}
+#menu{
+    float: right;
+    margin-top: 40px;
+    margin-right: 20px;
+    font-family: sans-serif;
+}
+#menu li{
+    margin: 5px 10px 5px 10px;
+    display: inline;
+}
+#intro{
+    display: inline-block;
+    vertical-align: top;
+    width: 550px;
+    height: 300px;
+    margin: 10px 30px 30px 20px;
+    padding: 20px;
+}
+.intromore{
+    font-size: 12px;
+    font-weight: lighter;
+    color:rgb(255, 181, 70);
+    text-shadow: 5px 5px 7px #ffe389;
+}
+.price{
+    font-size: 14px;
+}
+#main{
+    margin: 70px 0 20px 40px;
+}
+#main img{
+    width: 400px;
+    height: 60px;
+}
+#profile{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 500px;
+    height: 500px;
+    margin: 0px 0px 70px 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: solid 5px white;
+}
+#button{
+    position: relative;
+    position: absolute;
+    top: 690px; 
+    left: 850px;
+    display: inline-block;
+}
+#button a img{
+    width: 100px;
+}
+#button a img :hover{
+    transition: scale(1.7);
+}
+a:link{
+    color:white;
+    text-decoration:none;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    font-weight: bold;
+    color:#ffe389;
+}
+footer{
+    background-color: rgb(52, 52, 52);
+    padding: 20px;
+}
+#catchpraise{
+    background-color: rgba(170, 170, 170, 0.384);
+    border-radius: 20px;
+    width: 700px;
+    height: 400px;
+    margin: 10px 30px 30px 20px;
+    padding: 20px;
+}
+#story{
+    font-size: 14px;
+    font-weight: lighter;
+    color: white;
+    vertical-align: center;
+}
+#story span{
+    font-weight: bold;
+    color:#ffe389;
+}
+#movie{
+    margin-left: 20px;
+}
+#previewkr{
+    margin-right: 5px;
+}
+#previewen{
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+#previewmaking{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.charc{
+    margin: 30px 10px 20px 20px;
+}
+.charc h2{
+    font-size: 16px;
+}
+.charcimg{
+    display: inline-block;
+}
+.charcintro{
+    display: inline-block;
+    margin-left: 30px;
+}
+.charcintro h3{
+    color:#ffe389;
+}
+.charcimg img{
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+}
+.charcintro img{
+    width: 200px;
+}
+.stamp{
+    display: inline-block;
+    background-color:#ffe389;
+    transform: rotate(10deg);
+    border-radius: 20px;
+    padding: 5px;
+}
+.name{
+    display: inline-block;
+    margin-left: 10px;
+}
+.text{
+    background-color: rgba(52, 52, 52, 0.389);
+    width: 600px;
+    padding: 20px;
+    border-radius: 20px;
+}
+#music{
+    margin: 20px;
+}
+#mygallery{
+    width: 800px;
+    text-align: center;
+}
+.galleryimg{
+    width: 400px;
+    height: 200px;
+}
+.galleryimg li img{
+    width: 400px;
+    height: 200px;
+}
+.subject{
+    text-align: center;
+    padding: 5px;
+}
